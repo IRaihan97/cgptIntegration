@@ -18,6 +18,7 @@ async function chatgptFunction(message) {
     const api = new ChatGPTAPIBrowser({
         email: "antimatrixquarter@gmail.com",
         password: "Antimatrix2023",
+        isGoogleLogin: true
     });
     //👇🏻 Open up the login screen on the browser
     await api.initSession();
